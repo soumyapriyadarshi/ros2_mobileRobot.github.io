@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+
+<robot name="mobile_bot"
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- ====================================================== -->
+    <!-- BASE LINK MACRO -->
+    <!-- ====================================================== -->
+
+    <xacro:macro name="base_link" params="name x y z">
+
+        <link name="${name}">
+
+            <inertial>
+                <origin xyz="${x} ${y} ${z}" rpy="0 0 0"/>
+                <mass value="116.263363408155"/>
+
+                <inertia
+                    ixx="5.41231133370448"
+                    ixy="1.71735930055809E-16"
+                    ixz="5.50981564165212E-17"
+                    iyy="5.41041337515425"
+                    iyz="-3.04127902907885E-17"
+                    izz="9.79921269240122"/>
+            </inertial>
+
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+
+                <geometry>
+                    <mesh filename="package://mobile_bot_description/meshes/base_link.STL"/>
+                </geometry>
+
+                <material name="red">
+                    <color rgba="1.0 0.0 0.0 1.0"/>
+                </material>
+            </visual>
+
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+
+                <geometry>
+                    <mesh filename="package://mobile_bot_description/meshes/base_link.STL"/>
+                </geometry>
+            </collision>
+
+        </link>
+
+    </xacro:macro>
+
+
+    <!-- ====================================================== -->
+    <!-- WHEEL MACRO -->
+    <!-- ====================================================== -->
+
+    <xacro:macro name="wheel"
+        params="
+            name
+            joint_name
+            com_x
+            com_y
+            com_z
+            joint_x
+            joint_y
+            joint_z
+            ixx
+            ixy
+            ixz
+            iyy
+            iyz
+            izz">
+
+        <link name="${name}">
+
+            <inertial>
+                <origin
+                    xyz="${com_x} ${com_y} ${com_z}"
+                    rpy="0 0 0"/>
+
+                <mass value="12.5057640888134"/>
+
+                <inertia
+                    ixx="${ixx}"
+                    ixy="${ixy}"
+                    ixz="${ixz}"
+                    iyy="${iyy}"
+                    iyz="${iyz}"
+                    izz="${izz}"/>
+            </inertial>
+
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+
+                <geometry>
+                    <mesh filename="package://mobile_bot_description/meshes/${name}.STL"/>
+                </geometry>
+
+                <material name="black">
+                    <color rgba="0.0 0.0 0.0 1.0"/>
+                </material>
+            </visual>
+
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+
+                <geometry>
+                    <mesh filename="package://mobile_bot_description/meshes/${name}.STL"/>
+                </geometry>
+            </collision>
+
+        </link>
+
+
+        <!-- Wheel joint -->
+
+        <joint name="${joint_name}" type="continuous">
+
+            <parent link="base_link"/>
+            <child link="${name}"/>
+
+            <origin
+                xyz="${joint_x} ${joint_y} ${joint_z}"
+                rpy="0 0 0"/>
+
+            <axis xyz="0 1 0"/>
+
+        </joint>
+
+    </xacro:macro>
+
+
+    <!-- ====================================================== -->
+    <!-- LIDAR MACRO -->
+    <!-- ====================================================== -->
+
+    <xacro:macro name="lidar_link" params="name x y z">
+
+        <link name="${name}">
+
+            <inertial>
+
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+
+                <mass value="0.5"/>
+
+                <inertia
+                    ixx="0.001"
+                    ixy="0.0"
+                    ixz="0.0"
+                    iyy="0.001"
+                    iyz="0.0"
+                    izz="0.001"/>
+
+            </inertial>
+
+
+            <!-- LiDAR visual -->
+
+            <visual>
+
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+
+                <geometry>
+                    <cylinder radius="0.06" length="0.04"/>
+                </geometry>
+
+                <material name="lidar_material">
+                    <color rgba="0.15 0.15 0.15 1.0"/>
+                </material>
+
+            </visual>
+
+
+            <!-- LiDAR collision -->
+
+            <collision>
+
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+
+                <geometry>
+                    <cylinder radius="0.06" length="0.04"/>
+                </geometry>
+
+            </collision>
+
+        </link>
+
+
+        <!-- ================================================== -->
+        <!-- FIXED JOINT: BASE -> LIDAR -->
+        <!-- ================================================== -->
+
+        <joint name="${name}_joint" type="fixed">
+
+            <parent link="base_link"/>
+            <child link="${name}"/>
+
+            <origin
+                xyz="${x} ${y} ${z}"
+                rpy="0 0 0"/>
+
+        </joint>
+
+    </xacro:macro>
+
+
+    <!-- ====================================================== -->
+    <!-- CREATE BASE -->
+    <!-- ====================================================== -->
+
+    <xacro:base_link
+        name="base_link"
+        x="2.22044604925031E-16"
+        y="0"
+        z="-0.11504910016487"/>
+
+
+    <!-- ====================================================== -->
+    <!-- CREATE WHEELS -->
+    <!-- ====================================================== -->
+
+    <xacro:wheel
+        name="wheel_BR"
+        com_x="-4.44089209850063E-16"
+        com_y="0.0499770261051298"
+        com_z="2.22044604925031E-16"
+        joint_name="joint_BR"
+        joint_x="-0.33022"
+        joint_y="-0.4853"
+        joint_z="-0.2046"
+        ixx="0.134958791480988"
+        ixy="-2.90113365733414E-17"
+        ixz="2.33346550650993E-18"
+        iyy="0.249240517870682"
+        iyz="-5.18475927398714E-20"
+        izz="0.134958791480988"/>
+
+
+    <xacro:wheel
+        name="wheel_BL"
+        com_x="0"
+        com_y="-0.0499770261051298"
+        com_z="0"
+        joint_name="joint_BL"
+        joint_x="-0.33022"
+        joint_y="0.4853"
+        joint_z="-0.2046"
+        ixx="0.134958791480988"
+        ixy="-2.90113365733414E-17"
+        ixz="2.33346550650993E-18"
+        iyy="0.249240517870682"
+        iyz="-5.18475927398714E-20"
+        izz="0.134958791480988"/>
+
+
+    <xacro:wheel
+        name="wheel_FR"
+        com_x="0"
+        com_y="0.0499770261051298"
+        com_z="0"
+        joint_name="joint_FR"
+        joint_x="0.33022"
+        joint_y="-0.4853"
+        joint_z="-0.2046"
+        ixx="0.134958791480988"
+        ixy="-2.90113365733414E-17"
+        ixz="2.33346550650993E-18"
+        iyy="0.249240517870682"
+        iyz="-5.18475927398714E-20"
+        izz="0.134958791480988"/>
+
+
+    <xacro:wheel
+        name="wheel_FL"
+        com_x="0"
+        com_y="-0.0499770261051298"
+        com_z="0"
+        joint_name="joint_FL"
+        joint_x="0.33022"
+        joint_y="0.4853"
+        joint_z="-0.2046"
+        ixx="0.134958791480988"
+        ixy="-2.90113365733414E-17"
+        ixz="2.33346550650993E-18"
+        iyy="0.249240517870682"
+        iyz="-5.18475927398714E-20"
+        izz="0.134958791480988"/>
+
+
+    <!-- ====================================================== -->
+    <!-- CREATE LIDAR -->
+    <!-- ====================================================== -->
+
+    <xacro:lidar_link
+        name="lidar_link"
+        x="0"
+        y="0"
+        z="0.10"/>
+
+
+    <!-- ====================================================== -->
+    <!-- GAZEBO -->
+    <!-- ====================================================== -->
+
+    <xacro:include filename="mobile_robot.gazebo.xacro"/>
+
+
+    <!-- ====================================================== -->
+    <!-- ROS 2 CONTROL -->
+    <!-- ====================================================== -->
+
+    <xacro:include filename="mobile_base.ros2_control.xacro"/>
+
+</robot>

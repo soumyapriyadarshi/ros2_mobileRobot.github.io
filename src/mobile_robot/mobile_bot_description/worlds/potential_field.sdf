@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+    <world name = "potential_field_world">
+        <!-- PHYSICS -->
+        <physics name = "1ms" type ="ode">
+            <max_step_size> 0.001 </max_step_size>
+            <real_time_factor>1</real_time_factor>
+            <real_time_update_rate>1000</real_time_update_rate>
+        </physics>
+
+        <plugin filename = "gz-sim-physics-system" name = "gz::sim::systems::Physics"/>
+        <plugin filename = "gz-sim-user-commands-system" name = "gz::sim::systems::UserCommands"/>
+        <plugin filename = "gz-sim-scene-broadcaster-system" name = "gz::sim::systems::SceneBroadcaster"/>
+
+        <light type = "directional" name = "sun">
+            <cast_shadows>true</cast_shadows>
+            <pose>0 0 10 0 0 0</pose>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <direction>-0.5 0.1 -0.5</direction>
+        </light>
+        <!-- ground plane -->
+        <model name = "ground_plane">
+            <static>true</static>
+            <pose>6  0 0 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                        </plane>
+                    </geometry>
+                </collision>
+
+                <visual name = "visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>20 20</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>0.6 0.6 0.6 1</ambient>
+                        <diffuse>0.6 0.6 0.6 1</diffuse>
+                        <specular>0.3 0.3 0.3 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!--north wall-->
+        <model name = "north_wall">
+            <static> true </static>
+            <pose> 6 10 1 0 0 0 </pose>
+            <link name = "n_wall"> 
+                <collision name="n_collision">
+                    <geometry>
+                        <box>
+                            <size>20 0.2 2</size>
+                        </box>
+                    </geometry>
+                </collision>
+
+                <visual name="n_visual">
+                    <geometry>
+                        <box>
+                            <size>20 0.2 2</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.6 0.6 0.6 1</ambient>
+                        <diffuse>0.6 0.6 0.6 1</diffuse>
+                        <specular>0.3 0.3 0.3 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <!--south wall-->
+        <model name = "south_wall">
+            <static> true </static>
+            <pose>6 -10 1 0 0 0</pose>
+            <link name = "s_wall"> 
+                <collision name="s_collision">
+                    <geometry>
+                        <box>
+                            <size>20 0.2 2</size>
+                        </box>
+                    </geometry>
+                </collision>
+
+                <visual name="s_visual">
+                    <geometry>
+                        <box>
+                            <size>20 0.2 2</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.6 0.6 0.6 1</ambient>
+                        <diffuse>0.6 0.6 0.6 1</diffuse>
+                        <specular>0.3 0.3 0.3 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!--east wall-->
+        <model name = "east_wall">
+            <static> true </static>
+            <pose>16 0 1 0 0 1.5708</pose>
+            <link name = "e_wall"> 
+                <collision name="e_collision">
+                    <geometry>
+                        <box>
+                            <size>20 0.2 2</size>
+                        </box>
+                    </geometry>
+                </collision>
+
+                <visual name="e_visual">
+                    <geometry>
+                        <box>
+                            <size>20 0.2 2</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.6 0.6 0.6 1</ambient>
+                        <diffuse>0.6 0.6 0.6 1</diffuse>
+                        <specular>0.3 0.3 0.3 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <!--west wall-->
+        <model name = "wast_wall">
+            <static> true </static>
+            <pose>-4 0 1 0 0 1.5708</pose>
+            <link name = "w_wall"> 
+                <collision name="w_collision">
+                    <geometry>
+                        <box>
+                            <size>20 0.2 2</size>
+                        </box>
+                    </geometry>
+                </collision>
+
+                <visual name="w_visual">
+                    <geometry>
+                        <box>
+                            <size>20 0.2 2</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.6 0.6 0.6 1</ambient>
+                        <diffuse>0.6 0.6 0.6 1</diffuse>
+                        <specular>0.3 0.3 0.3 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+    </world>
+</sdf> 

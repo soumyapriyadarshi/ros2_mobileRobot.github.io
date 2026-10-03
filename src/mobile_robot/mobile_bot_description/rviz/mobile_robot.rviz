@@ -1,0 +1,334 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 70
+    Name: Displays
+    Property Tree Widget:
+      Expanded: ~
+      Splitter Ratio: 0.5
+    Tree Height: 400
+
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+
+Visualization Manager:
+  Class: ""
+
+  Displays:
+
+    # ==========================================================
+    # GRID
+    # ==========================================================
+
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.03
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 20
+      Reference Frame: base_link
+      Value: true
+
+
+    # ==========================================================
+    # ROBOT MODEL
+    # ==========================================================
+
+    - Alpha: 1.0
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+
+      Description File: ""
+
+      Description Source: Topic
+
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+
+      Enabled: true
+
+      Links:
+
+        All Links Enabled: true
+
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+
+        Link Tree Style: Links in Alphabetic Order
+
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+
+        lidar_link:
+          Alpha: 1
+          Show Axes: true
+          Show Trail: false
+          Value: true
+
+        wheel_BL:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+
+        wheel_BR:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+
+        wheel_FL:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+
+        wheel_FR:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+
+      Mass Properties:
+        Inertia: false
+        Mass: false
+
+      Name: RobotModel
+
+      TF Prefix: ""
+
+      Update Interval: 0
+
+      Value: true
+
+      Visual Enabled: true
+
+
+    # ==========================================================
+    # TF
+    # ==========================================================
+
+    - Class: rviz_default_plugins/TF
+
+      Enabled: true
+
+      Filter (blacklist): ""
+      Filter (whitelist): ""
+
+      Frame Timeout: 15
+
+      Frames:
+
+        All Enabled: true
+
+        base_link:
+          Value: true
+
+        lidar_link:
+          Value: true
+
+        wheel_BL:
+          Value: true
+
+        wheel_BR:
+          Value: true
+
+        wheel_FL:
+          Value: true
+
+        wheel_FR:
+          Value: true
+
+      Marker Scale: 0.5
+
+      Name: TF
+
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+
+      Tree:
+
+        base_link:
+
+          lidar_link:
+            {}
+
+          wheel_BL:
+            {}
+
+          wheel_BR:
+            {}
+
+          wheel_FL:
+            {}
+
+          wheel_FR:
+            {}
+
+      Update Interval: 0
+
+      Value: true
+
+
+    # ==========================================================
+    # LIDAR LASER SCAN
+    # ==========================================================
+
+    - Class: rviz_default_plugins/LaserScan
+
+      Enabled: true
+
+      Name: LaserScan
+
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+        Value: /scan
+
+      Queue Size: 10
+
+      Size (Pixels): 3
+
+      Style: Points
+
+      Use Fixed Frame: true
+
+      Value: true
+
+      Color: 255; 0; 0
+
+      Decay Time: 0
+
+      Position Transformer: XYZ
+
+      Selectable: true
+
+
+  # ============================================================
+  # GLOBAL SETTINGS
+  # ============================================================
+
+  Enabled: true
+
+  Global Options:
+
+    Background Color: 48; 48; 48
+
+    Fixed Frame: base_link
+
+    Frame Rate: 30
+
+  Name: root
+
+
+  # ============================================================
+  # TOOLS
+  # ============================================================
+
+  Tools:
+
+    - Class: rviz_default_plugins/Interact
+
+    - Class: rviz_default_plugins/MoveCamera
+
+    - Class: rviz_default_plugins/Select
+
+    - Class: rviz_default_plugins/FocusCamera
+
+
+  Transformation:
+
+    Current:
+      Class: rviz_default_plugins/TF
+
+
+  Value: true
+
+
+  # ============================================================
+  # VIEW
+  # ============================================================
+
+  Views:
+
+    Current:
+
+      Class: rviz_default_plugins/Orbit
+
+      Distance: 2.5
+
+      Enable Stereo Rendering:
+
+        Stereo Eye Separation: 0.06
+
+        Stereo Focal Distance: 1
+
+        Swap Stereo Eyes: false
+
+        Value: false
+
+      Focal Point:
+
+        X: 0
+        Y: 0
+        Z: 0
+
+      Focal Shape Fixed Size: true
+
+      Focal Shape Size: 0.05
+
+      Invert Z Axis: false
+
+      Name: Current View
+
+      Near Clip Distance: 0.01
+
+      Pitch: 0.5
+
+      Target Frame: base_link
+
+      Value: Orbit (rviz)
+
+      Yaw: 5.5
+
+
+Window Geometry:
+
+  Displays:
+    collapsed: false
+
+  Height: 800
+
+  Hide Left Dock: false
+  Hide Right Dock: false
+
+  Views:
+    collapsed: false
+
+  Width: 1200
+
+  X: 100
+  Y: 100
