@@ -1,0 +1,15 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/ao-star_planner/ao_star_planner.egg-info/PKG-INFO
+../../build/ao-star_planner/ao_star_planner.egg-info/SOURCES.txt
+../../build/ao-star_planner/ao_star_planner.egg-info/dependency_links.txt
+../../build/ao-star_planner/ao_star_planner.egg-info/requires.txt
+../../build/ao-star_planner/ao_star_planner.egg-info/top_level.txt
+../../build/ao-star_planner/ao_star_planner.egg-info/zip-safe
+ao-star_planner/__init__.py
+resource/ao-star_planner
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

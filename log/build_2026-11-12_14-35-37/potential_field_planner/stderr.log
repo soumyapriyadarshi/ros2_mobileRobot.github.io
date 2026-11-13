@@ -1,0 +1,8 @@
+[01m[K/home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner/src/potential_field_node.cpp:[m[K In member function ‘[01m[Kvoid PotentialFieldPlanner::[01;32m[KodomCallback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner/src/potential_field_node.cpp:159:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn_y_[m[K’ was not declared in this scope; did you mean ‘[01m[Kspawn_x_[m[K’?
+  159 |         y_ = msg->pose.pose.position.y + [01;31m[Kspawn_y_[m[K;
+      |                                          [01;31m[K^~~~~~~~[m[K
+      |                                          [32m[Kspawn_x_[m[K
+gmake[2]: *** [CMakeFiles/potential_field_node.dir/build.make:76: CMakeFiles/potential_field_node.dir/src/potential_field_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potential_field_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

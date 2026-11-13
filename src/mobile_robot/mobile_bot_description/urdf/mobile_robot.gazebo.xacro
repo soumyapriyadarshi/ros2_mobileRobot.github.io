@@ -79,22 +79,6 @@
     </gazebo>
 
 
-    <!-- ====================================================== -->
-    <!-- GAZEBO SENSOR SYSTEM -->
-    <!-- ====================================================== -->
-
-    <gazebo>
-
-        <plugin
-            filename="gz-sim-sensors-system"
-            name="gz::sim::systems::Sensors">
-
-            <render_engine>ogre2</render_engine>
-
-        </plugin>
-
-    </gazebo>
-
 
     <!-- ====================================================== -->
     <!-- LIDAR -->
@@ -182,4 +166,15 @@
             <static_publisher> false </static_publisher>
         </plugin>
     </gazebo>   
+
+    <gazebo>
+         <plugin filename="gz-sim-odometry-publisher-system"
+          name="gz::sim::systems::OdometryPublisher">
+        <odom_frame>odom_gt</odom_frame>
+        <robot_base_frame>base_link</robot_base_frame>
+        <dimensions>2</dimensions>
+        <odom_publish_frequency>20</odom_publish_frequency>
+        <odom_topic>/odom_gt</odom_topic>
+  </plugin>
+</gazebo>
 </robot>

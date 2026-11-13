@@ -1,0 +1,1 @@
+controller_manager:diff_drive_controller:geometry_msgs:gz_ros2_control:nav_msgs:rclcpp:ros_gz_bridge:ros_gz_sim:rviz2:sensor_msgs:std_srvs:tf_transformations:xacro

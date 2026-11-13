@@ -1,0 +1,11 @@
+[0.228s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sipun/ros2_mobileRobot.github.io/install/astar_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[0.289s] [ 50%] [32mBuilding CXX object CMakeFiles/potential_field_node.dir/src/potential_field_node.cpp.o[0m
+[2.611s] [01m[K/home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner/src/potential_field_node.cpp:[m[K In member function ‘[01m[Kvoid PotentialFieldPlanner::[01;32m[KodomCallback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.611s] [01m[K/home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner/src/potential_field_node.cpp:159:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn_y_[m[K’ was not declared in this scope; did you mean ‘[01m[Kspawn_x_[m[K’?
+[2.611s]   159 |         y_ = msg->pose.pose.position.y + [01;31m[Kspawn_y_[m[K;
+[2.611s]       |                                          [01;31m[K^~~~~~~~[m[K
+[2.611s]       |                                          [32m[Kspawn_x_[m[K
+[5.648s] gmake[2]: *** [CMakeFiles/potential_field_node.dir/build.make:76: CMakeFiles/potential_field_node.dir/src/potential_field_node.cpp.o] Error 1
+[5.648s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potential_field_node.dir/all] Error 2
+[5.648s] gmake: *** [Makefile:146: all] Error 2
+[5.650s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sipun/ros2_mobileRobot.github.io/install/astar_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12

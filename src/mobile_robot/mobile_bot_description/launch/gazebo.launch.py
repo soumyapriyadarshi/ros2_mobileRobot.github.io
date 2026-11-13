@@ -37,7 +37,7 @@ def generate_launch_description():
     world_file = os.path.join(
         package_path,
         "worlds",
-        "potential_field.sdf"
+        "mobile_robot_world.sdf"
     )
 
     # description of robot
@@ -70,9 +70,10 @@ def generate_launch_description():
         arguments=[
             "-topic", "robot_description",
             "-name", "mobile_robot",
-            "-x", "0",
-            "-y", "0",
+            "-x", "-8.0",
+            "-y", "-8.0",
             "-z", "0.5",
+            "-Y", "0.0",
         ],
         output = "screen"
     )

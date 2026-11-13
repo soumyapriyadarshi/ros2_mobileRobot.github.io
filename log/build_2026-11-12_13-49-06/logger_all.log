@@ -1,0 +1,267 @@
+[0.135s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.136s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x776d4be71ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x776d4bfd26f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x776d4bfd26f0>>, mixin_verb=('build',))
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.170s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sipun/ros2_mobileRobot.github.io'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/astar_planner) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/astar_planner' with type 'ros.ament_python' and name 'astar_planner'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot/mobile_bot_description) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robot/mobile_bot_description' with type 'ros.ament_cmake' and name 'mobile_bot_description'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential_field_planner) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/potential_field_planner' with type 'ros.ament_cmake' and name 'potential_field_planner'
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/jazzy
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'astar_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'astar_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sipun/ros2_mobileRobot.github.io/build/astar_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner', 'merge_install': False, 'path': '/home/sipun/ros2_mobileRobot.github.io/src/astar_planner', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mobile_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description', 'merge_install': False, 'path': '/home/sipun/ros2_mobileRobot.github.io/src/mobile_robot/mobile_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'potential_field_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'potential_field_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner', 'merge_install': False, 'path': '/home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sipun/ros2_mobileRobot.github.io/src/astar_planner' with build type 'ament_python'
+[0.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_planner', 'ament_prefix_path')
+[0.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/hook/ament_prefix_path.ps1'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/hook/ament_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sipun/ros2_mobileRobot.github.io/src/mobile_robot/mobile_bot_description' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sipun/ros2_mobileRobot.github.io/src/mobile_robot/mobile_bot_description'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sipun/ros2_mobileRobot.github.io/src/astar_planner'
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description -- -j12 -l12
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description -- -j12 -l12
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description
+[0.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_bot_description)
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description' for CMake module files
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description' for CMake config files
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_bot_description', 'cmake_prefix_path')
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/hook/cmake_prefix_path.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/hook/cmake_prefix_path.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/hook/cmake_prefix_path.sh'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/bin'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/lib/pkgconfig/mobile_bot_description.pc'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/lib/python3.12/site-packages'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/bin'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.ps1'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.dsv'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.sh'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.bash'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.zsh'
+[0.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/colcon-core/packages/mobile_bot_description)
+[0.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_bot_description)
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description' for CMake module files
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description' for CMake config files
+[0.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_bot_description', 'cmake_prefix_path')
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/hook/cmake_prefix_path.ps1'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/hook/cmake_prefix_path.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/hook/cmake_prefix_path.sh'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/bin'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/lib/pkgconfig/mobile_bot_description.pc'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/lib/python3.12/site-packages'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/bin'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.sh'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.bash'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.zsh'
+[0.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/colcon-core/packages/mobile_bot_description)
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner
+[0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(potential_field_planner)
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner' for CMake module files
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner' for CMake config files
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('potential_field_planner', 'cmake_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/hook/cmake_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/hook/cmake_prefix_path.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/hook/cmake_prefix_path.sh'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/bin'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/pkgconfig/potential_field_planner.pc'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/python3.12/site-packages'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/bin'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.sh'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.bash'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.zsh'
+[0.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/colcon-core/packages/potential_field_planner)
+[0.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(potential_field_planner)
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner' for CMake module files
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner' for CMake config files
+[0.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('potential_field_planner', 'cmake_prefix_path')
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/hook/cmake_prefix_path.ps1'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/hook/cmake_prefix_path.dsv'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/hook/cmake_prefix_path.sh'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/bin'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/pkgconfig/potential_field_planner.pc'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/python3.12/site-packages'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/bin'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.bash'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.zsh'
+[0.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/colcon-core/packages/potential_field_planner)
+[0.968s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, clean, alias, install, symlink_data, setopt, editable_wheel, develop, register, easy_install, build, install_egg_info, init_catalog, bdist, bdist_dumb, test, extract_messages, rotate, install_headers, dist_info, build_scripts, sdist, install_data, install_lib, update_catalog, build_clib, bdist_rpm, upload_docs, egg_info, bdist_egg, compile_catalog, saveopts, build_ext, check, build_py, install_scripts
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sipun/ros2_mobileRobot.github.io/src/astar_planner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sipun/ros2_mobileRobot.github.io/build/astar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/astar_planner build --build-base /home/sipun/ros2_mobileRobot.github.io/build/astar_planner/build install --record /home/sipun/ros2_mobileRobot.github.io/build/astar_planner/install.log --install-scripts $base/lib/astar_planner --single-version-externally-managed install_data
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner' for CMake module files
+[1.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sipun/ros2_mobileRobot.github.io/src/astar_planner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sipun/ros2_mobileRobot.github.io/build/astar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/astar_planner build --build-base /home/sipun/ros2_mobileRobot.github.io/build/astar_planner/build install --record /home/sipun/ros2_mobileRobot.github.io/build/astar_planner/install.log --install-scripts $base/lib/astar_planner --single-version-externally-managed install_data
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner' for CMake config files
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/lib'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/bin'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/lib/pkgconfig/astar_planner.pc'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/lib/python3.12/site-packages'
+[1.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_planner', 'pythonpath')
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/hook/pythonpath.ps1'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/hook/pythonpath.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/hook/pythonpath.sh'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/bin'
+[1.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astar_planner)
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/package.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/package.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/package.sh'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/package.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner/package.zsh'
+[1.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/colcon-core/packages/astar_planner)
+[1.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.347s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.352s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.377s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sipun/ros2_mobileRobot.github.io/install/local_setup.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sipun/ros2_mobileRobot.github.io/install/_local_setup_util_ps1.py'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sipun/ros2_mobileRobot.github.io/install/setup.ps1'
+[1.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sipun/ros2_mobileRobot.github.io/install/local_setup.sh'
+[1.381s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sipun/ros2_mobileRobot.github.io/install/_local_setup_util_sh.py'
+[1.382s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sipun/ros2_mobileRobot.github.io/install/setup.sh'
+[1.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sipun/ros2_mobileRobot.github.io/install/local_setup.bash'
+[1.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sipun/ros2_mobileRobot.github.io/install/setup.bash'
+[1.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sipun/ros2_mobileRobot.github.io/install/local_setup.zsh'
+[1.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sipun/ros2_mobileRobot.github.io/install/setup.zsh'

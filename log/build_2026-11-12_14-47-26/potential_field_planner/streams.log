@@ -1,0 +1,25 @@
+[0.233s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sipun/ros2_mobileRobot.github.io/install/astar_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[0.297s] [ 50%] [32mBuilding CXX object CMakeFiles/potential_field_node.dir/src/potential_field_node.cpp.o[0m
+[8.646s] [100%] [32m[1mLinking CXX executable potential_field_node[0m
+[8.937s] [100%] Built target potential_field_node
+[8.945s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sipun/ros2_mobileRobot.github.io/install/astar_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[8.946s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sipun/ros2_mobileRobot.github.io/install/astar_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner
+[8.951s] -- Install configuration: ""
+[8.951s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/potential_field_planner/potential_field_node
+[8.957s] -- Set non-toolchain portion of runtime path of "/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/potential_field_planner/potential_field_node" to ""
+[8.957s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/package_run_dependencies/potential_field_planner
+[8.957s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/parent_prefix_path/potential_field_planner
+[8.957s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/ament_prefix_path.sh
+[8.957s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/ament_prefix_path.dsv
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/path.sh
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/path.dsv
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.bash
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.sh
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.zsh
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.dsv
+[8.958s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.dsv
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/packages/potential_field_planner
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/cmake/potential_field_plannerConfig.cmake
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/cmake/potential_field_plannerConfig-version.cmake
+[8.958s] -- Up-to-date: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.xml
+[8.959s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sipun/ros2_mobileRobot.github.io/install/astar_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner

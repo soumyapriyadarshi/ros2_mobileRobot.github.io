@@ -1,0 +1,46 @@
+[0.152s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner -DCMAKE_INSTALL_PREFIX=/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner
+[0.163s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.276s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.374s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.416s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.430s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.465s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.548s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.612s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.627s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.643s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.712s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.741s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.766s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.786s] -- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.865s] -- Configuring done (0.7s)
+[0.873s] -- Generating done (0.0s)
+[0.875s] -- Build files have been written to: /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner
+[0.881s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner -DCMAKE_INSTALL_PREFIX=/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner
+[0.882s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[0.919s] [ 50%] [32mBuilding CXX object CMakeFiles/potential_field_node.dir/src/potential_field_node.cpp.o[0m
+[8.063s] [100%] [32m[1mLinking CXX executable potential_field_node[0m
+[8.374s] [100%] Built target potential_field_node
+[8.382s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[8.382s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner
+[8.388s] -- Install configuration: ""
+[8.388s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/potential_field_planner/potential_field_node
+[8.392s] -- Set non-toolchain portion of runtime path of "/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/potential_field_planner/potential_field_node" to ""
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/package_run_dependencies/potential_field_planner
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/parent_prefix_path/potential_field_planner
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/ament_prefix_path.sh
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/ament_prefix_path.dsv
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/path.sh
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/path.dsv
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.bash
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.sh
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.zsh
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.dsv
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.dsv
+[8.392s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/packages/potential_field_planner
+[8.393s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/cmake/potential_field_plannerConfig.cmake
+[8.393s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/cmake/potential_field_plannerConfig-version.cmake
+[8.393s] -- Installing: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.xml
+[8.394s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner

@@ -24,20 +24,20 @@ public:
         // PARAMETERS
         // =========================================================
 
-        goal_x_ = -5.0;
-        goal_y_ = 5.0;
+        goal_x_ = 8.0;
+        goal_y_ = 8.0;
 
         mission_goal_x_ = goal_x_;
         mission_goal_y_ = goal_y_;
 
-        attractive_gain_ = 2.5;
-        repulsive_gain_ = 3.5;
+        attractive_gain_ = 5.0;
+        repulsive_gain_ = 2.0;
 
-        obstacle_distance_ = 0.25;
+        obstacle_distance_ = 2.0;
         // emergency_stop_distance_ = 1.0; 
 
-        max_linear_velocity_ = 2.0;
-        max_angular_velocity_ = 2.5;
+        max_linear_velocity_ = 1.5;
+        max_angular_velocity_ = 0.5;
 
         goal_tolerance_ = 0.15;
 
@@ -155,8 +155,8 @@ private:
     void odomCallback(
         const nav_msgs::msg::Odometry::SharedPtr msg)
     {
-        x_ = msg->pose.pose.position.x;
-        y_ = msg->pose.pose.position.y;
+        x_ = msg->pose.pose.position.x + spawn_x_;
+        y_ = msg->pose.pose.position.y + spawn_y_;
 
         // Quaternion -> yaw
         double qx = msg->pose.pose.orientation.x;
@@ -365,12 +365,12 @@ private:
         // TOTAL FORCE
         // =========================================================
 
-        double force_x =
-            attractive_x + repulsive_x;
+        double c = std::cos(yaw_), s = std::sin(yaw_);
+        double rep_world_x = c * repulsive_x - s * repulsive_y;
+        double rep_world_y = s * repulsive_x + c * repulsive_y;
 
-        double force_y =
-            attractive_y + repulsive_y;
-
+        double force_x = attractive_x + rep_world_x;
+        double force_y = attractive_y + rep_world_y;
         // =========================================================
         // DESIRED DIRECTION
         // =========================================================
@@ -496,6 +496,9 @@ private:
     // Goal
     double goal_x_;
     double goal_y_;
+
+    double spawn_x_ = -8.0;
+    double spawn_y_ = -8.0;
 
     // Potential field parameters
     double attractive_gain_;

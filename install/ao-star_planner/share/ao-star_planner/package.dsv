@@ -1,0 +1,6 @@
+source;share/ao-star_planner/hook/pythonpath.ps1
+source;share/ao-star_planner/hook/pythonpath.dsv
+source;share/ao-star_planner/hook/pythonpath.sh
+source;share/ao-star_planner/hook/ament_prefix_path.ps1
+source;share/ao-star_planner/hook/ament_prefix_path.dsv
+source;share/ao-star_planner/hook/ament_prefix_path.sh
