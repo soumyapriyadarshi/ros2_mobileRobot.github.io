@@ -70,10 +70,10 @@ def generate_launch_description():
         arguments=[
             "-topic", "robot_description",
             "-name", "mobile_robot",
-            "-x", "-8.0",
+            "-x", "-9.0",
             "-y", "-8.0",
             "-z", "0.5",
-            "-Y", "0.0",
+            "-Y", "1.5708",
         ],
         output = "screen"
     )

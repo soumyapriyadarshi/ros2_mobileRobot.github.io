@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

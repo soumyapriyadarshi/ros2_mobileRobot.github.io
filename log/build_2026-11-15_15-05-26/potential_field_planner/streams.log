@@ -1,0 +1,45 @@
+[0.313s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner -DCMAKE_INSTALL_PREFIX=/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner
+[0.324s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.473s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.477s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.490s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.493s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.542s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.543s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.559s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.602s] -- Found geometry_msgs: 5.9.3 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[0.629s] -- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)
+[0.649s] -- Found sensor_msgs: 5.9.3 (/opt/ros/lyrical/share/sensor_msgs/cmake)
+[0.664s] -- Found std_srvs: 5.9.3 (/opt/ros/lyrical/share/std_srvs/cmake)
+[0.756s] -- Configuring done (0.4s)
+[0.766s] -- Generating done (0.0s)
+[0.786s] -- Build files have been written to: /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner
+[0.791s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner -DCMAKE_INSTALL_PREFIX=/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner
+[0.791s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[0.827s] [ 50%] [32mBuilding CXX object CMakeFiles/potential_field_node.dir/src/potential_field_node.cpp.o[0m
+[9.039s] [100%] [1m[32mLinking CXX executable potential_field_node[0m
+[9.325s] [100%] Built target potential_field_node
+[9.333s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner -- -j12 -l12
+[9.334s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner
+[9.339s] -- Install configuration: ""
+[9.339s] -- Execute custom install script
+[9.340s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/lib/potential_field_planner/potential_field_node
+[9.346s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/package_run_dependencies/potential_field_planner
+[9.352s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/parent_prefix_path/potential_field_planner
+[9.358s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/ament_prefix_path.sh
+[9.364s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/ament_prefix_path.dsv
+[9.370s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/path.sh
+[9.376s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/environment/path.dsv
+[9.381s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.bash
+[9.388s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.fish
+[9.394s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.sh
+[9.400s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.zsh
+[9.406s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/local_setup.dsv
+[9.412s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.dsv
+[9.418s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/ament_index/resource_index/packages/potential_field_planner
+[9.424s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/cmake/potential_field_plannerConfig.cmake
+[9.430s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/cmake/potential_field_plannerConfig-version.cmake
+[9.436s] -- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner/share/potential_field_planner/package.xml
+[9.444s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner

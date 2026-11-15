@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            "astar_node  = astar_planner.astar_node:main"
         ],
     },
 )

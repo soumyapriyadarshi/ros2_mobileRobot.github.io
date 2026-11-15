@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner" FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/potential_field_planner/environment")

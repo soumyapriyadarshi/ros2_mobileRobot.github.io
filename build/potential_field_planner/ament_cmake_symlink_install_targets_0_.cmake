@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner/potential_field_node" "TARGETS" "potential_field_node" "DESTINATION" "lib/potential_field_planner")

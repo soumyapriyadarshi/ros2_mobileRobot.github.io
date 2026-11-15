@@ -1,0 +1,1 @@
+/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner/ament_cmake_environment_hooks/local_setup.fish

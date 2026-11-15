@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/sipun/ros2_mobileRobot.github.io/src/mobile_robot/mobile_bot_description" FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mobile_bot_description/environment")

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/potential_field_node.dir/link.d"
   "CMakeFiles/potential_field_node.dir/src/potential_field_node.cpp.o"
   "CMakeFiles/potential_field_node.dir/src/potential_field_node.cpp.o.d"
   "potential_field_node"

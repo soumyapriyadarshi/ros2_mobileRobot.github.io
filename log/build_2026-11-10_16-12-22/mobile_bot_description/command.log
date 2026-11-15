@@ -1,1 +1,0 @@
-Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sipun/ros2_mobileRobot.github.io/src/mobile_robot/mobile_bot_description -DCMAKE_INSTALL_PREFIX=/home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description

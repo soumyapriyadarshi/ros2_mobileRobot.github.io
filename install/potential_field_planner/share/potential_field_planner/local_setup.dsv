@@ -1,2 +1,1 @@
-source;share/potential_field_planner/environment/ament_prefix_path.sh
-source;share/potential_field_planner/environment/path.sh
+/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner/ament_cmake_environment_hooks/local_setup.dsv

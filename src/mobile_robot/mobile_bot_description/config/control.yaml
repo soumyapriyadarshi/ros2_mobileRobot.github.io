@@ -45,4 +45,4 @@ diff_drive_controller:
       - 0.001
       - 0.001
 
-    use_stamped_vel: false
+    use_stamped_vel: true

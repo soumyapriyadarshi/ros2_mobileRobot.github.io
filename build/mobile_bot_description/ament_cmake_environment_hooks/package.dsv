@@ -1,4 +1,5 @@
 source;share/mobile_bot_description/local_setup.bash
 source;share/mobile_bot_description/local_setup.dsv
+source;share/mobile_bot_description/local_setup.fish
 source;share/mobile_bot_description/local_setup.sh
 source;share/mobile_bot_description/local_setup.zsh

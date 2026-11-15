@@ -1,6 +1,1 @@
-<?xml version="1.0"?>
-<sdf version="1.10">
-    <model name="mobile_bot_description">
-        <static>false</static>
-    </model>
-</sdf>
+/home/sipun/ros2_mobileRobot.github.io/src/mobile_robot/mobile_bot_description/model.sdf

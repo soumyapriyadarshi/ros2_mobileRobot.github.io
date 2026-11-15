@@ -84,74 +84,44 @@
     <!-- LIDAR -->
     <!-- ====================================================== -->
 
-    <gazebo reference="lidar_link">
+   <gazebo reference="lidar_link">
+    <sensor name="gpu_lidar" type="gpu_lidar">
 
-        <sensor
-            name="gpu_lidar"
-            type="gpu_lidar">
+        <pose>0 0 0 0 0 0</pose>
 
-            <!-- Sensor pose -->
-            <pose relative_to="lidar_link">
-                0 0 0 0 0 0
-            </pose>
+        <topic>/scan</topic>
+        <gz_frame_id>lidar_link</gz_frame_id>
 
-            <!-- Gazebo topic -->
-            <topic>/scan</topic>
+        <update_rate>10</update_rate>
 
-            <gz_frame_id>lidar_link</gz_frame_id>
+        <lidar>
+            <scan>
+                <horizontal>
+                    <samples>720</samples>
+                    <resolution>1</resolution>
+                    <min_angle>-3.14159</min_angle>
+                    <max_angle>3.14159</max_angle>
+                </horizontal>
+            </scan>
 
-            <!-- Scan frequency -->
-            <update_rate>10</update_rate>
+            <range>
+                <min>0.12</min>
+                <max>12.0</max>
+                <resolution>0.01</resolution>
+            </range>
 
-            <lidar>
+            <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.01</stddev>
+            </noise>
+        </lidar>
 
-                <!-- Horizontal scan -->
-                <scan>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
 
-                    <horizontal>
-
-                        <!-- 720 points -->
-                        <samples>720</samples>
-
-                        <resolution>1</resolution>
-
-                        <!-- 360 degree -->
-                        <min_angle>-3.14159</min_angle>
-                        <max_angle>3.14159</max_angle>
-
-                    </horizontal>
-
-                </scan>
-
-
-                <!-- Range -->
-                <range>
-
-                    <min>0.12</min>
-                    <max>12.0</max>
-                    <resolution>0.01</resolution>
-
-                </range>
-
-
-                <!-- Noise -->
-                <noise>
-
-                    <type>gaussian</type>
-                    <mean>0.0</mean>
-                    <stddev>0.01</stddev>
-
-                </noise>
-
-            </lidar>
-
-            <!-- Sensor settings -->
-            <always_on>true</always_on>
-            <visualize>true</visualize>
-
-        </sensor>
-
-    </gazebo>
+    </sensor>
+</gazebo>
 
     <gazebo>
         <plugin filename = "gz-sim-pose-publisher-system" name = "gz::sim::systems::PosePublisher">

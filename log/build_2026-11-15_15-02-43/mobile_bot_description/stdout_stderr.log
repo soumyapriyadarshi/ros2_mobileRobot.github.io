@@ -1,0 +1,72 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/launch/display.launch.py
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/launch/gazebo.launch.py
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/launch/own.launch.py
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/launch/slam.launch.py
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/meshes/base_link.STL
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/meshes/wheel_BL.STL
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/meshes/wheel_BR.STL
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/meshes/wheel_FL.STL
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/meshes/wheel_FR.STL
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/urdf/mobile_base.ros2_control.xacro
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/urdf/mobile_robot.gazebo.xacro
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/urdf/mobile_robot.xacro
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/urdf/mobile_robot_urdf_learning.csv
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/urdf/mobile_robot_urdf_learning.urdf
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/rviz/mobile_robot.rviz
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/parameters/bridge_parameter.yaml
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/config/control.yaml
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/config/mapper_params_online_async.yaml
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/worlds/mobile_robot_world.sdf
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/worlds/potential_field.sdf
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/model.config
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/model.sdf
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/ament_index/resource_index/package_run_dependencies/mobile_bot_description
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/ament_index/resource_index/parent_prefix_path/mobile_bot_description
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/environment/path.sh
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/environment/path.dsv
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/local_setup.bash
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/local_setup.fish
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/local_setup.sh
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/local_setup.zsh
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/local_setup.dsv
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.dsv
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/ament_index/resource_index/packages/mobile_bot_description
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/cmake/mobile_bot_descriptionConfig.cmake
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/cmake/mobile_bot_descriptionConfig-version.cmake
+-- Symlinking: /home/sipun/ros2_mobileRobot.github.io/install/mobile_bot_description/share/mobile_bot_description/package.xml

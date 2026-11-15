@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/astar_planner/astar_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/astar_planner/astar_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/astar_planner/astar_planner.egg-info/entry_points.txt
+writing requirements to ../../build/astar_planner/astar_planner.egg-info/requires.txt
+writing top-level names to ../../build/astar_planner/astar_planner.egg-info/top_level.txt
+reading manifest file '../../build/astar_planner/astar_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/astar_planner/astar_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+copying astar_planner/astar_node.py -> /home/sipun/ros2_mobileRobot.github.io/build/astar_planner/build/lib/astar_planner
+copying astar_planner/__init__.py -> /home/sipun/ros2_mobileRobot.github.io/build/astar_planner/build/lib/astar_planner
+running install
+running install_lib
+running install_data
+copying resource/astar_planner -> /home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/sipun/ros2_mobileRobot.github.io/install/astar_planner/share/astar_planner
+running install_egg_info
+removing '/home/sipun/ros2_mobileRobot.github.io/install/astar_planner/lib/python3.14/site-packages/astar_planner-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/astar_planner/astar_planner.egg-info to /home/sipun/ros2_mobileRobot.github.io/install/astar_planner/lib/python3.14/site-packages/astar_planner-0.0.0-py3.14.egg-info
+running install_scripts
+Installing astar_node script to /home/sipun/ros2_mobileRobot.github.io/install/astar_planner/lib/astar_planner
+writing list of installed files to '/home/sipun/ros2_mobileRobot.github.io/build/astar_planner/install.log'

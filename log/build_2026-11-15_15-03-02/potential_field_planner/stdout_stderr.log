@@ -1,0 +1,28 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.9.3 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.9.3 (/opt/ros/lyrical/share/sensor_msgs/cmake)
+-- Found std_srvs: 5.9.3 (/opt/ros/lyrical/share/std_srvs/cmake)
+[31mCMake Error at CMakeLists.txt:20 (ament_target_dependencies):
+  Unknown CMake command "ament_target_dependencies".
+
+[0m
+-- Configuring incomplete, errors occurred!

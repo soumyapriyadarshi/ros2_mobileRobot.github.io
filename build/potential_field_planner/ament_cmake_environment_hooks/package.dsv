@@ -1,4 +1,5 @@
 source;share/potential_field_planner/local_setup.bash
 source;share/potential_field_planner/local_setup.dsv
+source;share/potential_field_planner/local_setup.fish
 source;share/potential_field_planner/local_setup.sh
 source;share/potential_field_planner/local_setup.zsh

@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner
+[0.017s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.018s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.018s]   CMake.
+[0.018s] 
+[0.018s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.018s]   to tell CMake that the project requires at least <min> but has been updated
+[0.018s]   to work with policies introduced by <max> or earlier.
+[0.018s] 
+[0.018s] [0m
+[0.021s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.157s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.160s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.172s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.175s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.186s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.221s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.222s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.237s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.276s] -- Found geometry_msgs: 5.9.3 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[0.295s] -- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)
+[0.311s] -- Found sensor_msgs: 5.9.3 (/opt/ros/lyrical/share/sensor_msgs/cmake)
+[0.325s] -- Found std_srvs: 5.9.3 (/opt/ros/lyrical/share/std_srvs/cmake)
+[0.334s] [31mCMake Error at CMakeLists.txt:20 (ament_target_dependencies):
+[0.334s]   Unknown CMake command "ament_target_dependencies".
+[0.334s] 
+[0.335s] [0m
+[0.335s] -- Configuring incomplete, errors occurred!
+[0.338s] Invoked command in '/home/sipun/ros2_mobileRobot.github.io/build/potential_field_planner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /home/sipun/ros2_mobileRobot.github.io/src/potential_field_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sipun/ros2_mobileRobot.github.io/install/potential_field_planner

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/sipun/ros2_mobileRobot.github.io/src/mobile_robot/mobile_bot_description" FILES "/home/sipun/ros2_mobileRobot.github.io/src/mobile_robot/mobile_bot_description/package.xml" "DESTINATION" "share/mobile_bot_description")

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/sipun/ros2_mobileRobot.github.io/build/mobile_bot_description/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

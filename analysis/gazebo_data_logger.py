@@ -27,7 +27,7 @@ class GazeboDataLogger(Node):
         os.makedirs('results', exist_ok=True)
 
         self.filename = (
-            f"results/run_{time.strftime('%Y%m%d_%H%M%S')}.csv"
+            f"results/run.csv"
         )
 
         self.file = open(self.filename, 'w', newline='')
